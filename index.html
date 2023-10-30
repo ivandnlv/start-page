@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый экран</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="weather">
+        <img id="weather-image" src="loading.svg" alt="weather" loading="lazy" />
+        <div>
+          <p id="city"></p>
+          <h2 id="weather-text">Загружаем данные...</h2>
+          <p id="weather-feels-like"></p>
+        </div>
+      </div>
+      <div class="time-date">
+        <h1 id="time">00:00</h1>
+        <p id="date">00.00.0000</p>
+      </div>
+      <div class="links">
+        <a href="https://vk.com" target="_blank" style="background: #6caac4"> <span>vk</span></a>
+        <a href="https://youtube.com" target="_blank" style="background: #d75050">
+          <span>youtube</span>
+        </a>
+        <a href="https://music.yandex.ru" style="background: #ffbe5c" target="_blank">
+          <span>music</span>
+        </a>
+        <a
+          href="https://account.struust.ru/"
+          target="_blank"
+          style="background: #2e2d4d; color: #fff"
+        >
+          <span>уунит</span>
+        </a>
+        <a href="https://mail.google.com/" target="_blank" style="background: #a0bd9b">
+          <span>gmail</span>
+        </a>
+        <a
+          href="https://dota2.ru/forum/forums/programmirovanie.206/"
+          target="_blank"
+          style="background: #343434; color: #fff"
+        >
+          <span>Форум</span>
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
